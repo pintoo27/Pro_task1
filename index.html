@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prestige Properties | Luxury Real Estate</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <div class="logo"><a href="#">Property<span class="highlight">Finder</span></a></div>
+      <div class="nav-links" id="navLinks">
+        <a href="#">Home</a>
+        <a href="#properties">Properties</a>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+        <a href="sign_in.html">Sign In</a>
+      </div>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Find Your Dream Home</h1>
+        <p>Discover exclusive properties in prime locations with our expert real estate services.</p>
+        <div class="cta-buttons">
+          <a href="#properties" class="btn primary">View Properties</a>
+          <a href="#contact" class="btn secondary">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Search Section -->
+  <section class="search">
+    <div class="container">
+      <h2>Find Your Perfect Property</h2>
+      <div class="search-form">
+
+        <div class="form-field">
+          <label>Location</label>
+          <select>
+            <option>Any Location</option>
+            <option>Downtown</option>
+            <option>Suburban</option>
+            <option>Beachfront</option>
+            <option>Countryside</option>
+          </select>
+        </div>
+
+        <div class="form-field">
+          <label>Property Type</label>
+          <select>
+            <option>Any Type</option>
+            <option>House</option>
+            <option>Apartment</option>
+            <option>Villa</option>
+            <option>Penthouse</option>
+          </select>
+        </div>
+
+        <div class="form-field">
+          <label>Add Type</label>
+          <select>
+            <option>Types</option>
+            <option>1 BHK</option>
+            <option>2 BHK</option>
+            <option>3 BHK</option>
+            <option>Studio</option>
+            <option>Duplex</option>
+          </select>
+        </div>
+
+        <div class="form-field">
+          <label>Price Range</label>
+          <select>
+            <option>Any Price</option>
+            <option>$500k - $1M</option>
+            <option>$1M - $2M</option>
+            <option>$2M - $5M</option>
+            <option>$5M+</option>
+          </select>
+        </div>
+
+        <div class="form-field">
+          <button class="search-btn">Search</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <p>© 2025 PropertyFinder. All rights reserved.</p>
+    <div class="social-links">
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- JS for nav toggle -->
+  <script>
+    function toggleMenu() {
+      document.getElementById('navLinks').classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
